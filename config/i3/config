@@ -57,7 +57,7 @@ bindsym $mod+Return exec --no-startup-id kitty
 bindsym $mod+Shift+q kill
 
 # lockscreen
-bindsym $mod+Ctrl+l exec "sh /home/$USER/.config/scripts/lock.sh"
+bindsym $mod+Ctrl+l exec "sh /home/$USER/.config/i3/lock.sh"
 
 #screenshots
 # save full screen as a file
