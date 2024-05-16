@@ -3,9 +3,9 @@ local M = {}
 M.ui = {
     theme_toggle = {
         "one_light", "onedark",
-        "catppuccine", "ayu_dark",
+        "catppuccine", "catppuccin",
     },
-    theme = "ayu_dark",
+    theme = "catppuccin",
 
     telescope = {},
     statusline = {},

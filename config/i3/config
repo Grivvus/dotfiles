@@ -209,13 +209,14 @@ bindsym $mod+r mode "resize"
 # client.background       #FFFFFF
 
 # class                 border  bground text    indicator child_border
-client.focused          #83A8EC #12121F #D4D7FF #83A8EC   #8983D8
-client.focused_inactive #D4D7FF #12121F #D4D7FF #D4D7FF   #D0D3FF
-client.unfocused        #D0D3FF #12121F #D4D7FF #D0D3FF   #CCCFFF
-client.urgent           #DE688A #DA587D #D4D7FF #D0D3FF   #DA587D
-client.placeholder      #12121F #12121F #D4D7FF #12121F   #222236
+client.focused          #8aadf4 #11111b #cdd6f4 #8aadf4   #c6a0f6
+client.focused_inactive #cdd6f4 #11111b #cdd6f4 #cdd6f4   #bac2de
+client.unfocused        #bac2de #11111b #bac2de #bac2de   #7f849c
+client.urgent           #eba0ac #f38ba8 #bac2de #bac2de   #f38ba8
+client.placeholder      #11111b #11111b #cdd6f4 #11111b   #313244
 
-client.background       #12121F
+client.background       #1e1e2e
+
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
