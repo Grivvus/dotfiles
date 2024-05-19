@@ -65,6 +65,8 @@ bindsym $mod+p exec --no-startup-id maim "/home/$USER/Pictures/Screenshots/$(dat
 
 bindsym $mod+Ctrl+p exec --no-startup-id maim --select "/home/$USER/Pictures/Screenshots/$(date)" 
 bindsym $mod+Shift+p exec --no-startup-id maim | xclip -selection clipboard -t image/png
+bindsym $mod+Ctrl+Shift+p exec --no-startup-id  maim --select | xclip -selection clipboard -t image/png
+
 
 # start rofi (a program launcher)
 bindsym $mod+d exec --no-startup-id "rofi -show combi -modes combi -combi-modes 'drun,run'" 
