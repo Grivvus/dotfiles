@@ -61,9 +61,9 @@ bindsym $mod+Ctrl+l exec "sh /home/$USER/.config/i3/lock.sh"
 
 #screenshots
 # save full screen as a file
-bindsym $mod+p exec --no-startup-id maim "/home/$USER/Pictures/Screenshots/$(date)" 
+bindsym $mod+p exec --no-startup-id maim "/home/$USER/Pictures/screenshots/$(date)" 
 
-bindsym $mod+Ctrl+p exec --no-startup-id maim --select "/home/$USER/Pictures/Screenshots/$(date)" 
+bindsym $mod+Ctrl+p exec --no-startup-id maim --select "/home/$USER/Pictures/screenshots/$(date)" 
 bindsym $mod+Shift+p exec --no-startup-id maim | xclip -selection clipboard -t image/png
 bindsym $mod+Ctrl+Shift+p exec --no-startup-id  maim --select | xclip -selection clipboard -t image/png
 
