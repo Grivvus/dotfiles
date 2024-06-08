@@ -22,7 +22,7 @@ return {
    		ensure_installed = {
    			"lua-language-server", "stylua",
    			"html-lsp", "css-lsp" , "prettier",
-        "python-lsp-server", "clangd",
+            "python-lsp-server", "clangd", "gopls"
    		},
    	},
    },
@@ -33,7 +33,7 @@ return {
    		ensure_installed = {
     		"lua", "python", "c",
             "html", "css", "javascript",
-            "markdown",
+            "markdown", "go"
    		},
    	},
    },
