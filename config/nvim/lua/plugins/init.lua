@@ -32,7 +32,7 @@ return {
    		ensure_installed = {
     		"lua", "python", "markdown", "bash",
             "html", "css", "javascript",
-            "go", "kotlin", "java",
+            "go", "java",
             "c", "cpp", "zig", "llvm"
    		},
    	},
