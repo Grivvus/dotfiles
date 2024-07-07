@@ -15,24 +15,38 @@ return {
        require "configs.lspconfig"
      end,
    },
-  
+
    {
    	"williamboman/mason.nvim",
    	opts = {
    		ensure_installed = {
             "lua-language-server", "python-lsp-server", "clangd",
+            "gopls", "typescript-language-server", "html-lsp", "css-lsp"
          }
    	},
    },
-  
+
    {
    	"nvim-treesitter/nvim-treesitter",
    	opts = {
    		ensure_installed = {
-    		"lua", "python", "c",
+    		"lua", "python", "markdown", "bash",
             "html", "css", "javascript",
-            "markdown", "go"
+            "go", "kotlin", "java",
+            "c", "cpp", "zig", "llvm"
    		},
    	},
    },
+
+   {
+        "Exafunction/codeium.nvim",
+        dependencies = {
+            "nvim-lua/plenary.nvim",
+            "hrsh7th/nvim-cmp",
+        },
+        config = function()
+            require("codeium").setup({
+            })
+        end
+        },
 }
