@@ -1,15 +1,11 @@
-local options = {
-  formatters_by_ft = {
-    lua = { "stylua" },
-    -- css = { "prettier" },
-    -- html = { "prettier" },
-  },
+-- setting up "conform.nvim" plugins
 
-  -- format_on_save = {
-  --   -- These options will be passed to conform.format()
-  --   timeout_ms = 500,
-  --   lsp_fallback = true,
-  -- },
+local options = {
+	formatters_by_ft = {
+		lua = { "stylua" },
+		python = { "isort" },
+		go = { "goimports", "gofmt" },
+	},
 }
 
 require("conform").setup(options)
