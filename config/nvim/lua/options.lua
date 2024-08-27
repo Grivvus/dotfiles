@@ -13,6 +13,8 @@ o.clipboard = "unnamedplus"
 o.cursorline = true
 o.cursorlineopt = "number"
 
+-- ralative line numbers
+vim.wo.relativenumber = true
 -- Indenting
 o.expandtab = true
 o.smartindent = true
