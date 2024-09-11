@@ -3,6 +3,7 @@ if status is-interactive
 end
 
 alias vim='nvim'
+alias pac='sudo pacman -Syu'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

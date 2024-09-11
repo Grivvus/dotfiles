@@ -169,7 +169,8 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 # autodrag app to right window
 for_window [class="firefox"] move to workspace $ws2
 for_window [class="discord"] move to workspace $ws5
-
+for_window [class="anydesk"] move to workspace $ws6
+for_window [class="Anydesk"] move to workspace $ws6
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
