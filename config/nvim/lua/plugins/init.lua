@@ -26,7 +26,6 @@ return {
 				"gopls",
 				"html-lsp",
 				"css-lsp",
-                "elixir-ls",
 			},
 		},
 	},

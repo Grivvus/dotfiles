@@ -7,7 +7,6 @@ local servers = {
     "clangd", "pylsp", "lua_ls",
     "cssls", "html",
     "gopls", "jdtls", "zls",
-    "elixirls"
 }
 
 -- lsps with default config
