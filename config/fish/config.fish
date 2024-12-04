@@ -4,6 +4,7 @@ end
 
 alias vim='nvim'
 alias pac='sudo pacman -Syu'
+alias pyweb='conda activate web_3.13'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -21,3 +22,4 @@ end
 
 # Created by `pipx` on 2024-05-26 16:17:40
 set PATH $PATH /home/grivvus/.local/bin
+pyweb
