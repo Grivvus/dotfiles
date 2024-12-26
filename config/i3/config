@@ -38,7 +38,8 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec_always --no-startup-id feh --bg-fill /home/grivvus/Pictures/wallpaper/catppuchine/rosewater-cat.png
 
 # starting firefox automaticly
-exec --no-startup-id flatpak run org.mozilla.firefox
+# exec --no-startup-id flatpak run org.mozilla.firefox
+exec --no-startup-id firefox
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
