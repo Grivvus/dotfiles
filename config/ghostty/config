@@ -1,4 +1,4 @@
-font-family = "Hack Mono Nerd"
+font-family = Hack
 font-size = 14
 
 theme = catppuccin-mocha
