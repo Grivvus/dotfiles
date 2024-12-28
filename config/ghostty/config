@@ -1,0 +1,7 @@
+font-family = "Hack Mono Nerd"
+font-size = 14
+
+theme = catppuccin-mocha
+window-decoration = false
+gtk-tabs-location = bottom
+background-opacity = 0.96
