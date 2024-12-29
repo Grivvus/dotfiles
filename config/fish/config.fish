@@ -4,7 +4,7 @@ end
 
 alias vim='nvim'
 alias pac='sudo pacman -Syu'
-alias scc='gcc -Wall -Wextra -Wpedantic -Wformat -Wsign-compare -Wtype-limits'
+alias scc='gcc -Wall -Wextra -Wpedantic -Wformat -Wsign-compare -Wtype-limits -g'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
