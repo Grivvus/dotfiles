@@ -4,9 +4,10 @@ local capabilities = require("nvchad.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
 local servers = {
-    "clangd", "pylsp", "lua_ls",
-    "cssls", "html",
-    "gopls", "jdtls", "zls",
+    clangd = {},
+    pylsp = {},
+    lus_ls = {},
+    gopls = {},
 }
 
 -- lsps with default config
