@@ -2,9 +2,16 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+set -x PATH "/home/grivvus/.local/include/" $PATH
+
 alias vim='nvim'
 alias pac='sudo pacman -Syu'
+alias sus='systemctl suspend'
 alias scc='gcc -Wall -Wextra -Wpedantic -Wformat -Wsign-compare -Wtype-limits -g'
+alias mypy='uv tool run mypy'
+
+# repair wifi
+#usb_modeswitch -v 0bda -p 1a2b -J
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
