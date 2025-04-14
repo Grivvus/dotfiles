@@ -23,6 +23,7 @@ return {
 				"lua-language-server",
 				"python-lsp-server",
 				"clangd",
+                "kotlin-language-server",
 				"gopls",
 			},
 		},
@@ -38,7 +39,10 @@ return {
 				"bash",
 				"go",
 				"c",
+                "zig",
 				"cpp",
+                "kotlin",
+                "dart"
 			},
 		},
 	},

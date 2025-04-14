@@ -36,6 +36,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # set up wallpapers
 # exec_always --no-startup-id feh --bg-fill /home/grivvus/Pictures/wallpaper/pixelart_night_stars_shooting-star_river_boat_couple_relaxing.png
 exec_always --no-startup-id feh --bg-fill /home/grivvus/Pictures/wallpaper/catppuchine/rosewater-cat.png
+# exec_always --no-startup-id feh --bg-fill /home/grivvus/Pictures/wallpaper/pixelart_winter_hut_deer_man_dog_hunt_PixelArtJourney.png
 
 # starting firefox automaticly
 # exec --no-startup-id flatpak run org.mozilla.firefox
