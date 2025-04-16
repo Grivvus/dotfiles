@@ -8,7 +8,7 @@ local servers = {
 	"pylsp",
 	"gopls",
 	"lua_ls",
-    "kotlin_language_server",
+    "gleam",
     "zls",
     "dartls",
 }
