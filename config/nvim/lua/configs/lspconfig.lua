@@ -8,9 +8,8 @@ local servers = {
 	"pylsp",
 	"gopls",
 	"lua_ls",
-    "gleam",
-    "zls",
-    "dartls",
+	"gleam",
+	"zls",
 }
 
 -- lsps with default config
@@ -25,9 +24,9 @@ for _, lsp in ipairs(servers) do
 					plugins = { pylsp_mypy = { enabled = true } },
 				},
 			},
-            on_attach = on_attach,
-            on_init = on_init,
-            capabilities = capabilities,
+			on_attach = on_attach,
+			on_init = on_init,
+			capabilities = capabilities,
 		})
 	else
 		lspconfig[lsp].setup({

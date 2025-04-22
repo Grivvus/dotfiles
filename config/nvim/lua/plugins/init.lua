@@ -1,7 +1,7 @@
 return {
 	{
 		"stevearc/conform.nvim",
-		-- event = 'BufWritePre', -- uncomment for format on save
+		event = "BufWritePre", -- uncomment for format on save
 		config = function()
 			require("configs.conform")
 		end,
@@ -24,7 +24,7 @@ return {
 				"python-lsp-server",
 				"clangd",
 				"gopls",
-                "zls",
+				"zls",
 			},
 		},
 	},
@@ -39,10 +39,9 @@ return {
 				"bash",
 				"go",
 				"c",
-                "zig",
-                "gleam",
+				"zig",
+				"gleam",
 				"cpp",
-                "dart"
 			},
 		},
 	},
