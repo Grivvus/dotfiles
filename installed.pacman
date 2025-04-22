@@ -1,4 +1,5 @@
 7zip
+afetch
 apache
 base
 base-devel
@@ -8,11 +9,12 @@ btrfs-progs
 chromium
 clang
 cmake
-dart
 docker
 docker-compose
 efibootmgr
 elixir
+erlang
+erlang-core
 feh
 firefox
 fish
@@ -20,6 +22,7 @@ flatpak
 gdb
 ghostty
 git
+gleam
 glfw
 glm
 go
@@ -30,6 +33,7 @@ helix
 htop
 i3-wm
 i3blocks
+i3lock-color
 i3status
 intel-media-driver
 intel-ucode
@@ -41,6 +45,7 @@ k9s
 kitty
 kotlin
 kubectl
+libbsd
 libpulse
 libva-intel-driver
 lightdm
@@ -48,6 +53,7 @@ lightdm-gtk-greeter
 linux
 linux-firmware
 lldb
+llvm
 maim
 man-db
 mc
@@ -55,21 +61,21 @@ minikube
 mono
 ncdu
 nemo
-neofetch
 neovim
 network-manager-applet
 networkmanager
 networkmanager-openvpn
 nftables
+ninja
 nnn
 npm
 nvtop
+onefetch
 openssh
 openvpn
 os-prober
+pacman-contrib
 pavucontrol
-php
-php-apache
 picom
 pipewire
 pipewire-alsa
@@ -88,13 +94,13 @@ rofi
 rsync
 ruff
 rustup
-sdl2
+sdl2-compat
 smartmontools
 spirv-tools
 systemd-resolvconf
 tcc
 tcpdump
-tmux
+termshark
 tokei
 tree-sitter-bash
 tree-sitter-python
@@ -103,7 +109,10 @@ ttf-hack-nerd
 ttf-jetbrains-mono-nerd
 unrar
 unzip
+usb_modeswitch
+usbutils
 uv
+visual-studio-code-bin
 vulkan-extra-layers
 vulkan-extra-tools
 vulkan-headers
@@ -119,6 +128,7 @@ wireless_tools
 wireplumber
 wpa_supplicant
 xclip
+xdg-desktop-portal-gtk
 xdg-utils
 xf86-video-amdgpu
 xf86-video-ati
@@ -126,4 +136,5 @@ xf86-video-nouveau
 xf86-video-vmware
 xorg-xinit
 zig
+zip
 zram-generator
