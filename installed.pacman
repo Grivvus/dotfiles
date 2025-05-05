@@ -1,5 +1,4 @@
 7zip
-afetch
 apache
 base
 base-devel
@@ -22,7 +21,6 @@ flatpak
 gdb
 ghostty
 git
-gleam
 glfw
 glm
 go
@@ -112,7 +110,6 @@ unzip
 usb_modeswitch
 usbutils
 uv
-visual-studio-code-bin
 vulkan-extra-layers
 vulkan-extra-tools
 vulkan-headers
