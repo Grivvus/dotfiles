@@ -1,8 +1,7 @@
 configuration {
 	modi: "drun, run";
 	show-icons: true;
-	terminal: "kitty";
-    applications: "/home/grivvus/.local/share/applications/android-studio.desktop";
+	terminal: "ghostty";
 	font: "ShureTechMono Nerd Font Mono 13";
 	icon-theme: "kora";
 }
