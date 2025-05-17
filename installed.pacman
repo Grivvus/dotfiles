@@ -8,6 +8,7 @@ btrfs-progs
 chromium
 clang
 cmake
+dive
 docker
 docker-compose
 efibootmgr
@@ -31,7 +32,6 @@ helix
 htop
 i3-wm
 i3blocks
-i3lock-color
 i3status
 intel-media-driver
 intel-ucode
@@ -85,7 +85,6 @@ pypy3
 python-pipx
 qemu-full
 raylib
-redis
 reflector
 rocminfo
 rofi
@@ -105,6 +104,7 @@ tree-sitter-python
 ttf-hack
 ttf-hack-nerd
 ttf-jetbrains-mono-nerd
+ttf-roboto
 unrar
 unzip
 usb_modeswitch

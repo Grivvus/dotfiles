@@ -18,6 +18,10 @@ set $mod Mod4
 font pango:DejaVu Sans Mono 11
 
 # autostart
+
+# don't turn off monitor
+exec --no-startup-id xset -dpms
+
 exec --no-startup-id picom
 exec --no-startup-id "sh /home/$USER/.config/polybar/start.sh"
 exec_always --no-startup-id "setxkbmap -model pc104 -layout us,ru -variant ,, -option grp:alt_shift_toggle"
