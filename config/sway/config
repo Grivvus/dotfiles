@@ -22,6 +22,8 @@ output * bg /home/grivvus/Pictures/wallpaper/catppuchine/rosewater-cat.png fill
 
 # Autostart
 exec --no-startup-id waybar
+exec --no-startup-id firefox
+exec --no-startup-id $term
 
 ### Key bindings
 #
