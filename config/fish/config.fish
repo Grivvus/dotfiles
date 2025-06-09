@@ -31,3 +31,7 @@ end
 
 # Created by `pipx` on 2024-05-26 16:17:40
 set PATH $PATH /home/grivvus/.local/bin
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH

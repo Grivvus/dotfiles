@@ -6,6 +6,15 @@ return {
 			require("configs.conform")
 		end,
 	},
+	{
+		"m4xshen/hardtime.nvim",
+		lazy = false,
+		dependencies = { "MunifTanjim/nui.nvim" },
+		opts = {},
+		config = function()
+			require("hardtime").setup()
+		end,
+	},
 
 	-- These are some examples, uncomment them if you want to see them work!
 	{
