@@ -12,6 +12,9 @@ alias sus='systemctl suspend'
 alias scc='gcc -Wall -Wextra -Wpedantic -Wformat -Wsign-compare -Wtype-limits -g'
 alias mypy='uv tool run mypy'
 
+# openvpn connection management
+alias vpnon='nmcli connection up client'
+alias vpnoff='nmcli connection down client'
 # repair wifi
 #usb_modeswitch -v 0bda -p 1a2b -J
 
@@ -35,3 +38,5 @@ set PATH $PATH /home/grivvus/.local/bin
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
+# zoxide
+zoxide init fish | source

@@ -186,6 +186,8 @@ for_window [class="AmneziaVPN"] move to workspace $ws6
 # for_window [class="jetbrains-studio"] floating disable
 for_window [title="Settings"] floating disable
 for_window [title="Choose Content to Paste"] floating disable
+# Amnezia looks better at floating
+for_window [title="AmneziaVPN"] floating enable
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
