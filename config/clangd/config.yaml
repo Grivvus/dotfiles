@@ -1,0 +1,21 @@
+CompileFlags:
+  Add: [-Wall, -Wextra]
+---
+If:
+  PathMatch: .*\.c
+CompileFlags:
+  Add: 
+    - -std=c23
+---
+If:
+  PathMatch: .*\.(cpp|cc|cxx)
+CompileFlags:
+  Add: 
+    - -std=c++23
+Hover:
+  ShowAKA: Yes
+Diagnostics:
+  ClangTidy:
+    Enable: true
+    HeaderFilterRegex: ''
+  UnusedIncludes: Strict
