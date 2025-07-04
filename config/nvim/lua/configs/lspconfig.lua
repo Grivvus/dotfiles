@@ -10,6 +10,7 @@ local servers = {
 	"lua_ls",
 	"gleam",
 	"zls",
+	"kotlin_language_server",
 }
 
 -- lsps with default config
@@ -27,6 +28,18 @@ for _, lsp in ipairs(servers) do
 			on_attach = on_attach,
 			on_init = on_init,
 			capabilities = capabilities,
+		})
+	elseif lsp == "gopls" then
+		lspconfig[lsp].setup({
+			settings = {
+				gopls = {
+					analyses = {
+						unusedparams = true,
+					},
+					staticcheck = true,
+					gofumpt = true,
+				},
+			},
 		})
 	else
 		lspconfig[lsp].setup({
