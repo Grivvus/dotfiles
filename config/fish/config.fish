@@ -4,7 +4,6 @@ end
 
 set -x PATH "/home/grivvus/.local/include/" $PATH
 set -x PATH "/home/grivvus/go/bin" $PATH
-set -x PATH "/home/grivvus/development/flutter/bin" $PATH
 
 alias vim='nvim'
 alias pac='sudo pacman -Syu'
