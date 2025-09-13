@@ -49,6 +49,7 @@ ruff
 rustup
 tcc
 uv
+zig
 
 # cli-tools
 btop
@@ -71,6 +72,7 @@ ttf-jetbrains-mono-nerd
 ttf-roboto
 
 # tools
+chromium
 firefox
 fish
 flatpak
@@ -78,49 +80,27 @@ ghostty
 kitty
 nemo
 neovim
-
-# uncategorized
-base
-base-devel
-bind
-btrfs-progs
-chromium
-efibootmgr
-grub
-gst-plugin-pipewire
-intel-media-driver
-intel-ucode
-ipset
-iwd
-linux
-linux-firmware
-man-db
-mc
 network-manager-applet
 networkmanager-openvpn
-nftables
 openssh
 openvpn
-os-prober
-pacman-contrib
+reflector
+unrar
+unzip
+zip
 pavucontrol
 pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
 podman
-reflector
-rsync
-sdl2-compat
 smartmontools
-spirv-tools
-systemd-resolvconf
-tree-sitter-bash
-tree-sitter-python
-unrar
-unzip
 usb_modeswitch
 usbutils
+wireguard-tools
+
+# vulkan stuff
+spirv-tools
 vulkan-extra-layers
 vulkan-extra-tools
 vulkan-headers
@@ -130,18 +110,3 @@ vulkan-radeon
 vulkan-tools
 vulkan-utility-libraries
 vulkan-validation-layers
-wget
-wireguard-tools
-wireless_tools
-wpa_supplicant
-xdg-desktop-portal-gtk
-xdg-utils
-xf86-video-amdgpu
-xf86-video-ati
-xf86-video-nouveau
-xf86-video-vmware
-xorg-xinit
-xorg-xwayland
-zig
-zip
-zram-generator
