@@ -1,7 +1,12 @@
 return {
 	{
+		"catppuccin/nvim",
+		name = "catppuccin",
+		lazy = false,
+	},
+	{
 		"stevearc/conform.nvim",
-		event = "BufWritePre", -- uncomment for format on save
+		event = "BufWritePre",
 		config = function()
 			require("configs.conform")
 		end,
@@ -16,17 +21,16 @@ return {
 		end,
 	},
 
-	-- These are some examples, uncomment them if you want to see them work!
 	{
 		"neovim/nvim-lspconfig",
 		config = function()
-			require("nvchad.configs.lspconfig").defaults()
-			require("configs.lspconfig")
+			require("config.lspconfig")
 		end,
 	},
 
 	{
 		"williamboman/mason.nvim",
+		cmd = { "Mason", "MasonInstall", "MasonUpdate" },
 		opts = {
 			ensure_installed = {
 				"lua-language-server",
@@ -40,6 +44,9 @@ return {
 
 	{
 		"nvim-treesitter/nvim-treesitter",
+		event = { "BufReadPost", "BufNewFile" },
+		cmd = { "TSInstall", "TSBufEnable", "TSBufDisable", "TSModuleInfo" },
+		build = ":TSUpdate",
 		opts = {
 			ensure_installed = {
 				"lua",
@@ -55,5 +62,11 @@ return {
 			},
 		},
 	},
-	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+	{
+		"folke/which-key.nvim",
+		lazy = false,
+	},
+	{
+		"nvim-telescope/telescope.nvim",
+	},
 }

@@ -4,6 +4,8 @@ local g = vim.g
 
 -------------------------------------- globals -----------------------------------------
 g.toggle_theme_icon = "   "
+g.mapleader = " "
+g.maplocalleader = "\\"
 
 -------------------------------------- options ------------------------------------------
 o.laststatus = 3
@@ -48,8 +50,6 @@ o.updatetime = 250
 -- go to previous/next line with h,l,left arrow and right arrow
 -- when cursor reaches end/beginning of line
 opt.whichwrap:append("<>[]hl")
-
--- g.mapleader = " "
 
 -- disable some default providers
 g.loaded_node_provider = 0
