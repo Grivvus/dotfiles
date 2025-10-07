@@ -8,7 +8,7 @@ return {
 		"stevearc/conform.nvim",
 		event = "BufWritePre",
 		config = function()
-			require("configs.conform")
+			require("config.conform")
 		end,
 	},
 	{
@@ -68,5 +68,10 @@ return {
 	},
 	{
 		"nvim-telescope/telescope.nvim",
+	},
+	{
+		"windwp/nvim-autopairs",
+		event = "InsertEnter",
+		config = true,
 	},
 }
