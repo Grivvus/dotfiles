@@ -49,3 +49,5 @@ require("nvim-treesitter.configs").setup({
 vim.schedule(function()
 	require("keymaps")
 end)
+
+vim.cmd.colorscheme("catppuccin")
