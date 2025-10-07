@@ -11,6 +11,11 @@ alias sus='systemctl suspend'
 alias scc='gcc -Wall -Wextra -Wpedantic -Wformat -Wsign-compare -Wtype-limits -g'
 alias mypy='uv tool run mypy'
 
+alias cd='z'
+
+alias darkmode="gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'"
+alias lightmode="gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'"
+
 # openvpn connection management
 alias vpnon='nmcli connection up client'
 alias vpnoff='nmcli connection down client'
