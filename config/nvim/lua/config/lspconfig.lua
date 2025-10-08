@@ -1,3 +1,5 @@
+local capabilities = require("cmp_nvim_lsp").default_capabilities()
+
 local servers = {
 	"clangd",
 	"pylsp",
@@ -38,17 +40,28 @@ end
 
 for _, setting in ipairs(settings) do
 	vim.lsp.config(setting, settings[setting])
+	vim.lsp.capabilities = capabilities
 end
 
-vim.api.nvim_create_autocmd('LspAttach', {
-  group = vim.api.nvim_create_augroup('UserLspConfig', {}),
-  callback = function(ev)
-    -- Enable "Go to Definition" with <Ctrl-]>
-    vim.keymap.set('n', '<C-]>', vim.lsp.buf.definition, { buffer = ev.buf })
-    -- Other useful LSP keybinds:
-    vim.keymap.set('n', 'K', vim.lsp.buf.hover, { buffer = ev.buf })
-    vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { buffer = ev.buf })
-    vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, { buffer = ev.buf })
-    vim.keymap.set('n', 'gr', vim.lsp.buf.references, { buffer = ev.buf })
-  end,
+vim.api.nvim_create_autocmd("LspAttach", {
+	group = vim.api.nvim_create_augroup("UserLspConfig", {}),
+	callback = function(ev)
+		-- Enable "Go to Definition" with <Ctrl-]>
+		vim.keymap.set("n", "<C-]>", vim.lsp.buf.definition, { buffer = ev.buf })
+		-- Other useful LSP keybinds:
+		vim.keymap.set("n", "K", vim.lsp.buf.hover, { buffer = ev.buf })
+		vim.keymap.set("n", "gd", vim.lsp.buf.definition, { buffer = ev.buf })
+		vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { buffer = ev.buf })
+		vim.keymap.set("n", "gr", vim.lsp.buf.references, { buffer = ev.buf })
+	end,
+})
+
+vim.diagnostic.enable = true
+vim.diagnostic.config({
+	virtual_text = {
+		severity = { min = vim.diagnostic.severity.HINT },
+	},
+	signs = true,
+	underline = true,
+	update_in_insert = false,
 })

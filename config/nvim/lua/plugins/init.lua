@@ -27,6 +27,18 @@ return {
 			require("config.lspconfig")
 		end,
 	},
+	{
+		"hrsh7th/nvim-cmp",
+		dependencies = {
+			"hrsh7th/cmp-nvim-lsp", -- LSP source
+			"hrsh7th/cmp-buffer", -- Buffer source
+			"hrsh7th/cmp-path", -- Path source
+			"hrsh7th/cmp-cmdline", -- Command line source
+			"saadparwaiz1/cmp_luasnip", -- Snippets source
+			"L3MON4D3/LuaSnip", -- Snippet engine
+			"rafamadriz/friendly-snippets", -- Snippet collections
+		},
+	},
 
 	{
 		"williamboman/mason.nvim",
