@@ -182,11 +182,11 @@ for_window [class="anydesk"] move to workspace $ws6
 for_window [class="Anydesk"] move to workspace $ws6
 for_window [class="AmneziaVPN"] move to workspace $ws6
 
-# Что бы настройки не "уплывали"
+# # To prevent the settings from "floating away"
 # for_window [class="jetbrains-studio"] floating disable
 for_window [title="Settings"] floating disable
 for_window [title="Choose Content to Paste"] floating disable
-# Amnezia looks better at floating
+# Amnezia looks better in floating
 for_window [title="AmneziaVPN"] floating enable
 
 # reload the configuration file
