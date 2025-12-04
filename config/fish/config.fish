@@ -6,6 +6,8 @@ set -x PATH "/home/grivvus/.local/include/" $PATH
 set -x PATH "/home/grivvus/go/bin" $PATH
 
 alias vim='nvim'
+alias barevim='set --local --export NVIM_APPNAME nvim-bare && nvim'
+
 alias pac='sudo pacman -Syu'
 alias sus='systemctl suspend'
 alias scc='gcc -Wall -Wextra -Wpedantic -Wformat -Wsign-compare -Wtype-limits -g'

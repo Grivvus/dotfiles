@@ -1,6 +1,5 @@
 require("options")
 require("keymaps")
 require("config.lazy")
-require("config.cmp")
 require("config.bufferline")
 vim.cmd.colorscheme("catppuccin")
