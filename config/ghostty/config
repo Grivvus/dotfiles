@@ -1,7 +1,8 @@
 font-family = hack
 font-size = 14
 
-theme = dark:Catppuccin Mocha,light:Catppuccin Latte
+theme = dark:Catppuccin Mocha,light:GitHub Light High Contrast
 window-decoration = false
+window-padding-color = extend-always
 gtk-tabs-location = bottom
 background-opacity = 0.96
