@@ -47,6 +47,8 @@ exec_always --no-startup-id feh --bg-fill /home/grivvus/Pictures/wallpaper/catpp
 # exec --no-startup-id flatpak run org.mozilla.firefox
 exec --no-startup-id firefox
 
+exec --no-startup-id AmneziaVPN
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status

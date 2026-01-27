@@ -12,6 +12,7 @@ alias pac='sudo pacman -Syu'
 alias sus='systemctl suspend'
 alias scc='gcc -Wall -Wextra -Wpedantic -Wformat -Wsign-compare -Wtype-limits -g'
 alias mypy='uv tool run mypy'
+alias vscode='flatpak run com.visualstudio.code'
 
 alias cd='z'
 
@@ -32,3 +33,7 @@ set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
 # zoxide
 zoxide init fish | source
+
+# быстрые команды для управления zapret
+alias zapret-config='$HOME/zapret-configs/install.sh'
+alias zapret-utils='$HOME/zapret-configs/utils-zapret.sh'
