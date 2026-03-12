@@ -46,7 +46,7 @@ return {
 		opts = {
 			ensure_installed = {
 				"lua-language-server",
-				"python-lsp-server",
+				"ty",
 				"clangd",
 				"gopls",
 				"zls",
@@ -70,7 +70,6 @@ return {
 				"cpp",
 				"zig",
 				"gleam",
-				"kotlin",
 			},
 		},
 	},

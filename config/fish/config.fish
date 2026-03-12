@@ -9,6 +9,7 @@ alias vim='nvim'
 alias barevim='set --local --export NVIM_APPNAME nvim-bare && nvim'
 
 alias pac='sudo pacman -Syu'
+alias pacclean='sudo pacman -Sc'
 alias sus='systemctl suspend'
 alias scc='gcc -Wall -Wextra -Wpedantic -Wformat -Wsign-compare -Wtype-limits -g'
 alias mypy='uv tool run mypy'
