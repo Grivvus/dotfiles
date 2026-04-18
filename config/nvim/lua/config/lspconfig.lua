@@ -2,7 +2,6 @@ local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
 local servers = {
 	"clangd",
-	-- "pylsp",
 	"ty",
 	"gopls",
 	"lua_ls",
@@ -22,16 +21,6 @@ local settings = {
 			},
 		},
 	},
-	-- setting up mypy extenstion for pylsp
-	-- venv of pylsp located in /home/grivvus/.local/share/nvim/mason/packages/python-lsp-server/
-	-- you should install and update pylsp-mypy manualy
-	-- pylsp = {
-	-- 	settings = {
-	-- 		pylsp = {
-	-- 			plugins = { pylsp_mypy = { enabled = true } },
-	-- 		},
-	-- 	},
-	-- },
 }
 
 -- lsps with default config
