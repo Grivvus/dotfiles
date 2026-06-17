@@ -4,6 +4,7 @@ end
 
 set -x PATH "/home/grivvus/.local/include/" $PATH
 set -x PATH "/home/grivvus/go/bin" $PATH
+set -x PATH "/home/grivvus/.cargo/bin" $PATH
 
 alias vim='nvim'
 alias barevim='set --local --export NVIM_APPNAME nvim-bare && nvim'
