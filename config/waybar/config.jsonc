@@ -13,12 +13,10 @@
         "sway/window"
     ],
     "modules-right": [
-        "mpd",
         "idle_inhibitor",
         "pulseaudio",
         "network",
         "power-profiles-daemon",
-        // "cpu",
         "disk",
         "memory",
         "temperature",
@@ -152,5 +150,10 @@
 			"suspend": "systemctl suspend",
 			"hibernate": "systemctl hibernate"
 		}
+    },
+    "custom/micmute": {
+      "format": "",
+      "on-click": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
+      "tooltip": false
     }
 }
