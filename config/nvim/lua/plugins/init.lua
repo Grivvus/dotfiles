@@ -42,7 +42,7 @@ return {
 
 	{
 		"williamboman/mason.nvim",
-		cmd = { "Mason", "MasonInstall", "MasonUpdate" },
+		cmd = { "Mason", "MasonInstall", "MasonUpdate", "MasonInstallAll" },
 		opts = {
 			ensure_installed = {
 				"lua-language-server",

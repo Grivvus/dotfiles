@@ -1,12 +1,15 @@
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
 local servers = {
+	"gopls",
 	"clangd",
 	"ty",
-	"gopls",
 	"lua_ls",
-	"gleam",
 	"zls",
+	"gleam",
+	"tsgo",
+	"rust_analyzer",
+	"kotlin_lsp",
 }
 
 local settings = {
