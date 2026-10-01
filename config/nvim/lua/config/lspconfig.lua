@@ -7,7 +7,7 @@ local servers = {
 	"lua_ls",
 	"zls",
 	"gleam",
-	"tsgo",
+	"tsserver",
 	"rust_analyzer",
 	"kotlin_lsp",
 }
