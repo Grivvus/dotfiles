@@ -1,4 +1,8 @@
-# yay -Qm  # to check
+# yay -Qmq
+amneziavpn-bin
+android-studio
+happ-desktop-bin
 i3lock-color
-visual-studio-code-bin
-jetbrains-toolbox
+rustdesk-bin
+wlroots0.19
+yay
