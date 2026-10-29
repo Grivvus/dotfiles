@@ -46,7 +46,7 @@ exec --no-startup-id $term
 
 
     # mute microphone on $mod+Shift+m
-    bindsym $mod+Shift+m exec pactl set-source-mute @D -o ~/PicturesscreenshotsEFAULT_SOURCE@ toggle
+    bindsym $mod+Shift+m exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
     bindsym $mod+$left focus left
     bindsym $mod+$down focus down
