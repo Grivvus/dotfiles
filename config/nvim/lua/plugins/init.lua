@@ -68,7 +68,6 @@ return {
 				"c",
 				"cpp",
 				"zig",
-				"gleam",
 			},
 		},
 	},
